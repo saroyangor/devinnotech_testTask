@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  background-color: #8803fc;
+  min-height: 6rem;
+  align-items: center;
+  justify-content: space-around;
+
+  .title {
+    font-size: 2rem;
+    color: white;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.system {
+  background-color: white;
+  border-radius: 1rem;
+  height: 100%;
+  padding: 0.5rem;
+  display: flex;
+  gap: 1rem;
+
+  div {
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+
+.search input {
+  padding: 0.5rem;
+  outline: none
+}
+
+.search button {
+  background-color: #acacac;
+  padding: 0.5rem;
+}

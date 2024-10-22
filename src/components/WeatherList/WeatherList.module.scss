@@ -1,0 +1,12 @@
+.weatherList {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  width: 80%;
+  justify-content: center;
+
+  p {
+    font-size: 1rem;
+  }
+}

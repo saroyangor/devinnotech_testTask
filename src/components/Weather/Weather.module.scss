@@ -1,0 +1,32 @@
+.weather {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .left p {
+    font-size: 2rem;
+  }
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+.temp {
+  font-size: 3rem;
+}
+
+.icon {
+  width: 150px;
+}
